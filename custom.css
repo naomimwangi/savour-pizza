@@ -32,3 +32,19 @@
     margin-top: 10%;
     padding-bottom: 30px; 
 }
+#menu {
+    background-image: url(/images/background/menu\ background.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 1%;
+    padding-bottom: 20%;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+.col-sm-4, .col-sm-2  {
+    font-size: larger;
+}
+    
