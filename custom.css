@@ -23,7 +23,7 @@
 #about-us {
     text-align: center;
     padding-top: 8%;
-    color: black;
+    color: green;
     font-style: bold;
     font-size: larger;
 }
@@ -40,6 +40,7 @@
     padding-top: 1%;
     padding-bottom: 20%;
     text-align: center;
+    color: green;
 }
 h3 {
     text-align: center;
@@ -66,4 +67,24 @@ h3 {
    40% {transform: translateY(-30px);} 
    60% {transform: translateY(-15px);} 
 } 
-    
+ 
+#contact-us {
+    background-image: url(/images/background/contact\ sec.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 1%;
+    padding-bottom: 40%;
+    text-align: center;
+
+}
+.form-control {
+    background: transparent;
+}
+.col-sm-12 {
+    color: green;
+    font-size: x-large;
+    padding-top: 10%;
+    text-align: center;
+    margin-right: 0%;
+}
