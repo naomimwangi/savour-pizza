@@ -4,7 +4,8 @@
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 0%;
-    padding-bottom: 40%;
+    padding-bottom: -30%;
+    max-height: 10%;
     color: white;
     text-align: center;
 }
@@ -18,4 +19,16 @@
 .navbar-nav {
     font-size: larger;
     float: right;
+}
+#about-us {
+    text-align: center;
+    padding-top: 8%;
+    color: black;
+    font-style: bold;
+    font-size: larger;
+}
+.buttons {
+    padding-top : 30px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
 }
