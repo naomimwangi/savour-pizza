@@ -49,6 +49,9 @@
                 </div>
             </div>
         </div>
+        <div class="mouse-click">
+            <a href="#menu"><img src="/images/others/mouse_click.png" alt=" mouse_click" id="mouse-click"></a>
+        </div>
         <div class="buttons">
            <a class="btn btn-primary" href="#menu"> Our Menu!</a>
            <a class="btn btn-primary" href="#order"> Order Now!</a>
@@ -57,30 +60,26 @@
     <div id="menu">
         <h1>OUR MENU</h1>
         <div class="row">
+            <h3>PIZZA</h3>
             <div class="col-sm-4">
-                <h3>PIZZA</h3>
-                <h4>Chicken Tikka</h4>
-                <ul>
-                    <li>Large: Kshs. 1,200</li>
-                    <li>Medium: Kshs. 900</li>
-                    <li>Small: Kshs. 600</li>
-                </ul>
+                <h4>Chicken Tikka </h4>
+                <p>Large: Kshs. 1,200 </p>
+                <p>Medium: Kshs. 900 </p>
+                <p>Small: Kshs. 600</p> 
             </div>
             <div class="col-sm-4">
                 <h4>Nyama Fest</h4>
-                <ul>
-                    <li>Large: Kshs. 1,200</li>
-                    <li>Medium: Kshs. 900</li>
-                    <li>Small: Kshs. 600</li>
-                </ul>
+                <p>Large: Kshs. 1,200</p>
+                <p>Medium: Kshs. 900</p>
+                <p>Small: Kshs. 600</p>
+                
             </div>
             <div class="col-sm-4">
                 <h4>Veggie Pizza</h4>
-                <ul>
-                    <li>Large: Kshs. 1,200</li>
-                    <li>Medium: Kshs. 900</li>
-                    <li>Small: Kshs. 600</li>
-                </ul>
+                <p>Large: Kshs. 1,200</p>
+                <p>Medium: Kshs. 900</p>
+                <p>Small: Kshs. 600</p>
+                
             </div>
         </div>
         <div class="row">
@@ -122,7 +121,68 @@
                 </ul>
             </div>
         </div>
-        <a class="btn btn-primary" href="#order"> Order Now!</a>
+        <a class="btn btn-primary" href="#order" id="order-now"> Order Now!</a>
+    </div>
+    <div id="order">
+        <h1>Order Online</h1>
+        <div class="form">
+            <form id="delivery" action="" method="post">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <label for="flavor">Pizza preference</label>
+                        <select class="form-select form-select-sm" id="flavor">
+                            <option selected value="">Tap to choose</option>
+                            <option value="Chicken Tikka">Chicken Tikka</option>
+                            <option value="Nyama Fest">Nyama Fest</option>
+                            <option value="Veggie Pizza">Veggie Pizza</option>
+                        </select>
+                        <label for="size">Select Size</label>
+                        <select class="form-select form-select-sm" id="size">
+                            <option selected value="">Select size here</option>
+                            <option value="large">Large -- sh. 1200</option>
+                            <option value="medium">Medium -- sh. 900</option>
+                            <option value="small">Small -- sh. 600</option>
+                        </select>
+                        <label for="crust">Choose your favorite Crust!</label>
+                        <select class="form-select form-select-sm" id="crust">
+                            <option selected value="">Select your preferred crust!</option>
+                            <option value="Crispy">Crispy</option>
+                            <option value="Stuffed">Stuffed</option>
+                            <option value="Gluten-free">Gluten-free</option>
+                        </select>
+                        <label for="Toppings">Select Your Toppings</label>
+                        <div class="form-select form-select-sm">
+                            <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                            <label class="custom-control-label" for="Sausage">Sausage</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="Pepperoni" value="Pepperoni" name="toppings">
+                            <label class="custom-control-label" for="Pepperoni">Bacon</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                            <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                        </div>
+                        <div class="form-select form-select-sm">
+                            <input type="checkbox" class="custom-control-input" id="extra-cheese" value="extra-cheese" name="toppings">
+                            <label class="custom-control-label" for="extra-cheese">Extra Cheese</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="Chicken" value="Chicken" name="toppings">
+                            <label class="custom-control-label" for="Chicken">Chicken</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="Olives" value="Olives" name="toppings">
+                            <label class="custom-control-label" for="Olives">Olives</label>
+                        </div>
+                        <br><br>
+                       <button type="submit" class="btn btn-secondary">Proceed</button>
+                
+                    </div>
+                </div>    
+                
+            </form>
+        </div>
     </div>
     
 
