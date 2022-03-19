@@ -1,0 +1,21 @@
+.landing {
+    background-image: url(./images/background/landing\ page\ bgr.jpg);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 0%;
+    padding-bottom: 40%;
+    color: white;
+    text-align: center;
+}
+.landing h1 {
+    padding-top: 2%;
+}
+.landing p {
+    font-size: 100%;
+    
+}
+.navbar-nav {
+    font-size: larger;
+    float: right;
+}
