@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Smooch+Sans&display=swap');
 .landing {
     background-image: url(./images/background/landing\ page\ bgr.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 70));
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 0%;
-    padding-bottom: -30%;
+    padding-top: 5%;
+    padding-bottom: 10%;
     max-height: 10%;
     color: white;
     text-align: center;
@@ -21,11 +23,12 @@
     float: right;
 }
 #about-us {
+    background-color: black;
+    font-family: 'Hubballi', cursive;
     text-align: center;
-    padding-top: 8%;
+    padding-top: 0%;
     color: green;
-    font-style: bold;
-    font-size: larger;
+    font-size: small;
 }
 .buttons {
     padding-top : 3px;
@@ -40,7 +43,10 @@
     padding-top: 1%;
     padding-bottom: 20%;
     text-align: center;
-    color: green;
+    color: black;
+    font-family: 'Hubballi', cursive;
+    font-style: bold;
+    font-size: large;
 }
 h3 {
     text-align: center;
@@ -73,8 +79,8 @@ h3 {
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 1%;
-    padding-bottom: 40%;
+    padding-top: 5%;
+    padding-bottom: 20%;
     text-align: center;
 
 }
@@ -82,9 +88,26 @@ h3 {
     background: transparent;
 }
 .col-sm-12 {
+    background-color: black;
     color: green;
-    font-size: x-large;
+    font-size: small;
     padding-top: 10%;
     text-align: center;
-    margin-right: 0%;
+    margin-top: 10%;
+}
+#contact {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#contact ::placeholder {
+    color: green;
+}
+#contact h1 {
+    color: black;
+}
+#row2 {
+    padding-top: 5%;
+}
+.form-group {
+    padding-top: 5%;
 }
