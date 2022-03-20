@@ -37,6 +37,7 @@
 }
 #menu {
     background-image: url(/images/background/menu\ background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 70));
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,6 +57,7 @@ h3 {
 }
 #order {
     background-image: url(/images/background/order\ background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 70));
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,6 +82,7 @@ h3 {
  
 #contact-us {
     background-image: url(/images/background/contact\ sec.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 70));
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
