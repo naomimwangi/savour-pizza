@@ -25,7 +25,7 @@
 </ul>
 
 ### Live site
-[Live Site]()
+[Live Site](https://naomimwangi.github.io/savour-pizza/)
 
 ### Licence
 [MIT LICENSE](LICENSE.txt)
