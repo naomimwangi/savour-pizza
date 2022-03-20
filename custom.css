@@ -44,7 +44,7 @@
     padding-bottom: 20%;
     text-align: center;
     color: black;
-    font-family: 'Hubballi', cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: bold;
     font-size: large;
 }
@@ -59,10 +59,14 @@ h3 {
     background-size: cover ;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 1%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     text-align: center;
 }
+.col-sm-7 {
+    padding-bottom: 20%;
+}
+
 #mouse-click{
   margin-top: 5%; 
   animation: bounce 2s infinite;
