@@ -150,11 +150,11 @@
                         <label for="crust">Choose your favorite Crust!</label>
                         <select class="form-select form-select-sm" id="crust">
                             <option selected value="">Select your preferred crust!</option>
-                            <option value="Crispy">Crispy</option>
-                            <option value="Stuffed">Stuffed</option>
-                            <option value="Gluten-free">Gluten-free</option>
+                            <option value="Crispy">Crispy --Kshs.100</option>
+                            <option value="Stuffed">Stuffed --Kshs. 150</option>
+                            <option value="Gluten-free">Gluten-free --Kshs. 150</option>
                         </select>
-                        <label for="Toppings">Select Your Toppings</label>
+                        <label for="Toppings">Select Your Toppings @100</label>
                         <div class="form-select form-select-sm">
                             <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
                             <label class="custom-control-label" for="Sausage">Sausage</label>
@@ -183,6 +183,49 @@
                        <button type="submit" class="btn btn-secondary">Proceed</button>
                 
                     </div>
+                    <div class="col-sm-7">
+                
+                        <div class="orderplacing">
+                            <h2>Your Order is:</h2>
+                            <div id="your-orders">
+                                <table class="table table-sm  pizzatable">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Size</th>
+                                            <th scope="col">Crust</th>
+                                            <th scope="col">Topping</th>
+                                            <th scope="col">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="ordersmade">
+                                        <tr>
+                                            <td id="pizzaname"></td>
+                                            <td id="pizzasize"></td>
+                                            <td id="pizzacrust"></td>
+                                            <td id="pizzatopping"></td>
+                                            <td id="totals"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p id="pizzatotal"></p>
+                                <p id="totalbill"></p>
+                                <p id="addedprice">Delivery will cost sh. 200</p>
+                                <p id="finallmessage"></p>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id= "addPizza">Add Pizza</button>
+                            <button type="submit" class="btn btn-primary" id="deliver">Home delivery</button>
+                            <button type="submit" class="btn btn-primary" id="checkout">Checkout</button>
+                        </div>
+                        <div class="delivery">
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                                    <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                                    <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                                    <button type="submit" class="btn btn-primary" id="final-order">Place Order</button>
+                                </div>
+                            </form>
                 </div>    
                 
             </form>
