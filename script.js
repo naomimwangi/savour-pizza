@@ -12,12 +12,8 @@ $("button.proceed").click(function (event) {
     let pname = $("#flavor option:selected").val();
     let psize = $("#size option:selected").val();
     let pcrust = $("#crust option:selected").val();
-    let ptopping = [];
+
 });
-    $.each($("input[name='toppings']:checked"), function () {
-        ptopping.push($(this).val());
-    });
-    console.log(ptopping.join(", "));
 
     switch (psize) {
         case "large":
@@ -48,7 +44,7 @@ $("button.proceed").click(function (event) {
             console.log("No price");
     }  
     
-    let toppingCost = ptopping.length * 100;
+    let toppingCost = 100;
     console.log("toppins cost" + toppingCost);
 
     let deliveryCost = 200;
