@@ -1,3 +1,11 @@
+$("#contact").submit(function () {
+    event.preventDefault();
+    let name = $("input#text").val();
+    let email = $("input#email").val();
+    let message = $("textarea#message").val();
+    alert(name + " " + "we have received your message. Thank you for reaching out to us.");
+
+});
 function Buypizza(flavor, size, crust, topping, total) {
     this.flavor = flavor;
     this.size = size;
@@ -55,12 +63,3 @@ $("button.proceed").click(function (event) {
     checkout = total + deliveryCost;
     console.log(checkout);
 
-$("#contact").submit(function () {
-    event.preventDefault();
-    let name = $("input#text").val();
-    let email = $("input#email").val();
-    let message = $("textarea#message").val();
-    console.log (contact);
-    alert(name + " " + "we have received your message. Thank you for reaching out to us.");
-
-});  
